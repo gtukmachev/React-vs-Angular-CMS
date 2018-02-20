@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class TextComponent extends Component {
 
     render() {
-        return <p>just a text component</p>;
+        return <span>just a text component with props = "{this.props.t}"</span>;
     }
 }
 

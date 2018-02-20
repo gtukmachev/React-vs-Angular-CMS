@@ -11,7 +11,7 @@ var cFactory = {
         if (typeof settingItem.comp === 'string') return settingItem.comp;
         if (typeof settingItem.comp === 'boolean') return settingItem.comp;
 
-        return React.createElement(settingItem.comp, settingItem.props || null, settingItem.children || null);
+        return React.createElement(settingItem.comp, settingItem.props || {}, settingItem.children || null);
     }
 
 };
