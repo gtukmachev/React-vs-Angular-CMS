@@ -41,14 +41,16 @@ Now let's see what issues we solved in both of projects.
 
 ### components code simplicity
 * Angular - 5
-* React - 5 
+* React - 5
+ 
 Both frameworks looks good. 
 It's possible to define a component in a single file in both frameworks. 
 Both frameworks provide us a way to use HTML syntax to define markup, add event behaviors and so on 
 
 ### Dynamic components creation
 * Angular - 4
-* React - 5 
+* React - 5
+ 
 Angular has no a simple way to create a component in TypeScript code -  I was forced to use an internal API for that and the code doesn't look like something simple and readable.
 But, after moving this code into a common library - both React and Angular looks good.
 Look at the `ComponentsFactory` in both projects to see the difference.
